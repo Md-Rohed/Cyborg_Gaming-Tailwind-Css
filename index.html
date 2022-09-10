@@ -15,20 +15,20 @@
   <body class="bg-white">
     <!-- Navbar goes here -->
     <nav class="bg-white shadow-lg">
-      <div class="max-w-6xl mx-auto px-4">
+      <div class="md:max-w-6xl md:mx-auto px-4">
         <div class="">
-          <div class="flex justify-between space-x-7">
+          <div class="md:flex md:justify-between md:space-x-7">
             <!-- Website Logo -->
             <div>
-              <a href="#" class="items-center py-4 px-2">
+              <a href="#" class="md:items-center py-4 px-2">
                 <img src="./images/logo.png" alt="Logo" class="mr-2" />
               </a>
             </div>
             <!-- Primary Navbar items -->
-            <div class="md:flex items-center space-x-20">
+            <div class="md:flex md:items-center md:space-x-20 grid grid-rows-5">
               <a
                 href=""
-                class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold"
+                class="py-4 px-2 text-green-500 md:border-b-4 border-green-500 font-semibold"
                 >Home</a
               >
               <a
@@ -47,7 +47,7 @@
                 >Streams</a
               >
               <div
-                class="flex justify-center items-center bg-gray-100 border rounded-full px-3"
+                class="md:flex md:justify-center md:items-center flex bg-gray-100 border rounded-full md:px-3 w-fit px-4"
               >
                 <a
                   href=""
@@ -55,7 +55,7 @@
                   >Profiles</a
                 >
                 <img
-                  class="h-10 w-10"
+                  class="md:h-10 md:w-10 h-6 w-6 mt-3"
                   src="./images/profile-header.jpg"
                   alt=""
                 />
@@ -68,10 +68,12 @@
     <!-- banner------------ -->
     <div>
       <div
-        class="bg-cover bg-center h-96 w-3/5 mx-auto mt-24 border rounded-3xl px-20 pt-24 space-y-3"
+        class="md:bg-cover md:bg-center md:h-96 md:w-3/5 md:mx-auto mt-24 border rounded-3xl md:px-20 md:pt-24 space-y-3 bg-cover bg-center"
         style="background-image: url(./images/banner-bg.jpg)"
       >
-        <p class="text-white text-2xl">Welcome To Cyborg</p>
+        <p class="text-white text-2xl md:text-justify text-center">
+          Welcome To Cyborg
+        </p>
         <h1 class="text-white text-4xl font-extrabold">
           <span class="text-pink-700">BROWSER</span> OUR POPULAR
         </h1>
@@ -87,7 +89,7 @@
         Most Popular
         <span class="text-pink-700 font-extrabold font-sans"> Right Now</span>
       </h1>
-      <div class="gap-4 grid grid-cols-4">
+      <div class="md:gap-4 md:grid md:grid-cols-4">
         <!-- Card -->
         <div
           class="w-64 p-4 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl"
@@ -314,17 +316,19 @@
     <!-- library -->
 
     <div>
-      <div class="bg-gray-100 w-fit pt-4 mx-auto pr-20 px-14 rounded-3xl mt-6">
-        <h1 class="text-black text-3xl my-3 p-2">
+      <div
+        class="bg-gray-100 md:w-fit pt-4 md:mx-auto md:pr-20 md:px-14 rounded-3xl mt-6"
+      >
+        <h1 class="text-black md:text-3xl my-3 p-2">
           Your Gaming
           <span class="text-pink-700 font-extrabold font-sans"> Library</span>
         </h1>
         <!-- card -->
 
-        <div class="grid grid-rows-3 gap-12">
-          <div class="grid grid-cols-6 gap-16">
-            <div class="px-5">
-              <img class="rounded-xl" src="./images/game-01.jpg" alt="" />
+        <div class="md:grid md:grid-rows-3 md:gap-12">
+          <div class="md:grid md:grid-cols-6 md:gap-16 grid grid-cols-2">
+            <div class="md:px-5">
+              <img class="md:rounded-xl" src="./images/game-01.jpg" alt="" />
             </div>
             <div class="text-lg">
               <h1 class="font-bold">Dota 2</h1>
@@ -349,7 +353,7 @@
             </div>
           </div>
 
-          <div class="grid grid-cols-6 gap-16">
+          <div class="md:grid md:grid-cols-6 md:gap-16 grid grid-cols-2">
             <div class="px-5">
               <img class="rounded-xl" src="./images/game-02.jpg" alt="" />
             </div>
@@ -376,7 +380,7 @@
             </div>
           </div>
 
-          <div class="grid grid-cols-6 gap-16">
+          <div class="md:grid md:grid-cols-6 md:gap-16 grid grid-cols-2">
             <div class="px-5">
               <img class="rounded-xl" src="./images/game-03.jpg" alt="" />
             </div>
